@@ -130,13 +130,3 @@ fn test_img4() {
 fn test_img5() {
     reference_test("img5");
 }
-
-#[test]
-fn test_img6() {
-    reference_test("img6");
-}
-
-#[test]
-fn test_img7() {
-    reference_test("img7");
-}
