@@ -1,0 +1,20 @@
+[package]
+name = "miniwebp"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+
+[dev-dependencies]
+miniz = { git = "https://github.com/steschu77/miniz-rs.git" }
+serde_json = "1.0.145"
+
+[profile.perf]
+inherits = "release"
+opt-level = 3
+debug = true
+debug-assertions = false
+overflow-checks = false
+lto = false
+codegen-units = 1
+strip = "none"
