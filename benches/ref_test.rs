@@ -34,13 +34,3 @@ fn test_img4(b: &mut Bencher) {
 fn test_img5(b: &mut Bencher) {
     test_bench(b, "img5");
 }
-
-//#[bench]
-fn test_img6(b: &mut Bencher) {
-    test_bench(b, "img6");
-}
-
-//#[bench]
-fn test_img7(b: &mut Bencher) {
-    test_bench(b, "img7");
-}
